@@ -3,6 +3,8 @@
 
 var express = require('express');
 var app = express()
+var ejs = app.set('view engine', 'ejs')
+
 
 app.get('/', (req, res) => {
     res.send('<h1>RETORNO HOME</h1>')
@@ -20,3 +22,5 @@ app.get('/mobile', (req, res) => {
 app.listen(3000, () => {
     console.log("Server run with express");
 })
+
+
