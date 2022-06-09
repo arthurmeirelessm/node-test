@@ -1,5 +1,8 @@
-var http = require('http')
 
+//DISTINTO DO ARQUIVO APP.JS / ESSE CODIGO APENAS RETRATA UMA FORMA DE MANIPULAR AS ROTAS ATRAVES DE NODE PURO
+//OS DOIS ARQUIVOS TEM A MESMA FUNCIONALIDADE DE GERENCIAR AS ROTAS 
+
+var http = require('http')
 
 http.createServer((req, res) => {
 	var category = req.url
